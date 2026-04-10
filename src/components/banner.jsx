@@ -1,5 +1,7 @@
 import BannerImage from "../assets/banner.png";
 
+
+
 const Banner = () => {
   return (
     <div className="relative min-h-162.5 flex items-center overflow-hidden">
