@@ -5,7 +5,7 @@ return (
 <div className="navbar">
 
     <div className="navbar-start">
-<div className="flex items-center gap-1 font-bold text-xl">
+<div className="flex items-center gap-1 w-10/12 mx-auto font-bold text-xl">
 <p className="text-4xl text-blue-800">DigiTools</p>
 </div>
     </div>

@@ -5,6 +5,8 @@ import './App.css'
 import NavBar from './components/navBar'
 import Banner from './components/banner'
 import Stats from './components/stats'
+import Footer from './components/footer'
+import FooterSecondary from './components/footersecondary'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +19,10 @@ function App() {
 <Banner></Banner>
 
 <Stats></Stats>
+
+<Footer></Footer>
+
+<FooterSecondary></FooterSecondary>
 
     </>
   )

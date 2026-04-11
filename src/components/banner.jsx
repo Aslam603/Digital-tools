@@ -4,11 +4,12 @@ import BannerImage from "../assets/banner.png";
 
 const Banner = () => {
   return (
-    <div className="relative min-h-162.5 flex items-center overflow-hidden">
+    <div className="relative   w-10/12 mx-auto min-h-162.5 flex items-center overflow-hidden">
       <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
         
         {/* Left Content */}
-        <div className="space-y-4">
+<div className="flex flex-col items-start space-y-6 text-left">
+
           <div className="inline-flex items-center gap-2 bg-blue-300 text-blue-600 text-sm font-medium px-5 py-2 rounded-full">
             New: AI-Powered Tools Available
           </div>
