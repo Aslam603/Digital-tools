@@ -7,6 +7,7 @@ import Banner from './components/banner'
 import Stats from './components/stats'
 import Footer from './components/footer'
 import FooterSecondary from './components/footersecondary'
+import Steps from './components/steps'
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
 
 <Stats></Stats>
 
-
+<Steps></Steps>
 
 <Footer></Footer>
 

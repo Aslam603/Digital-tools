@@ -2,7 +2,7 @@ const Stats = () => {
 
 return (
 
-<div className=" flex items-center justify-around gap-20 py-4 bg-linear-to-r from-blue-600 to-purple-600 text-white">
+<div className=" flex items-center justify-around gap-20 py-4 mb-10 bg-linear-to-r from-blue-600 to-purple-600 text-white">
 <div className="text-center">
 
                 <h2 className="text-2xl font-bold">500K+</h2>
