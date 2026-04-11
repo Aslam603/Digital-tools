@@ -3,7 +3,7 @@
 
 const FooterSecondary = () => {
   return (
-    <footer className="bg-blue-950 pt-10 w-full">
+    <footer className="bg-blue-950 pt-10 pb-8 w-full">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           
