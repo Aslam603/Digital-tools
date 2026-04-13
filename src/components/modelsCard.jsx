@@ -54,8 +54,8 @@ const ModelsCard = ({ data }) => {
           ))}
         </ul>
 
-        <div className="card-actions mt-8">
-          <button className="btn bg-gradient-to-r from-blue-900 to-purple-900 border-none text-white btn-block">
+        <div className="card-actions  mt-8">
+          <button className="btn bg-gradient-to-r py-5 px-32  whitespace-nowrap from-blue-900 to-purple-900 border-none text-white btn-block">
             Buy Now
           </button>
         </div>
