@@ -1,5 +1,5 @@
+import { CircleDot, Play, PlayIcon } from "lucide-react";
 import BannerImage from "../assets/banner.png";
-
 
 
 const Banner = () => {
@@ -11,7 +11,7 @@ const Banner = () => {
 <div className="flex flex-col items-start space-y-6 text-left">
 
           <div className="inline-flex items-center gap-2 bg-blue-300 text-blue-600 text-sm font-medium px-5 py-2 rounded-full">
-            New: AI-Powered Tools Available
+          <CircleDot></CircleDot>  New: AI-Powered Tools Available
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter text-black">
@@ -29,8 +29,8 @@ const Banner = () => {
             <button className="bg-linear-to-r from-blue-600 to-purple-600 text-white px-5 py-2.5 rounded-3xl">
               Explore Products
             </button>
-            <button className="border border-blue-600 text-blue-600 rounded-2xl px-3.5 py-2">
-              Watch Demo
+            <button className="border border-blue-600 text-blue-600 rounded-2xl flex gap-1 px-3.5 py-2">
+          <PlayIcon></PlayIcon>   Watch Demo
             </button>
           </div>
 

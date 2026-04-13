@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "description": "Perfect for individuals and small projects.",
+    "price": 0,
+    "features": [
+      { "text": "10,000 monthly events", "available": true },
+      { "text": "Basic reporting", "available": true },
+      { "text": "7-day data retention", "available": true },
+      { "text": "Priority email support", "available": true }
+    ],
+    "buttonText": "Get Started",
+    "isPopular": false
+  },
+  {
+    "id": 2,
+    "name": "Professional",
+    "description": "Comprehensive tools for growing teams.",
+    "price": 79,
+    "features": [
+      { "text": "1,000,000 monthly events", "available": true },
+      { "text": "Advanced dashboards", "available": true },
+      { "text": "1-year data retention", "available": true },
+      { "text": "Priority email support", "available": true }
+    ],
+    "buttonText": "Try Pro for Free",
+    "isPopular": true
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "description": "Maximum security and scale for operations.",
+    "price": 499,
+    "features": [
+      { "text": "Unlimited monthly events", "available": true },
+      { "text": "Advanced dashboards", "available": true },
+      { "text": "Unlimited data retention", "available": true },
+      { "text": "Priority email support", "available": true },
+      { "text": "Custom SSO integration", "available": true }
+    ],
+    "buttonText": "Contact Sales",
+    "isPopular": false
+  }
+]

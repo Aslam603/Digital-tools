@@ -8,6 +8,8 @@ import Stats from './components/stats'
 import Footer from './components/footer'
 import FooterSecondary from './components/footersecondary'
 import Steps from './components/steps'
+import PricingCard from './components/PricingCard'
+import PricingSection from './components/PricingSection'
 
 
 function App() {
@@ -18,11 +20,16 @@ function App() {
       
 <NavBar></NavBar>
 
+<main>
+
 <Banner></Banner>
 
 <Stats></Stats>
 
 <Steps></Steps>
+
+<PricingSection></PricingSection>
+</main>
 
 <Footer></Footer>
 

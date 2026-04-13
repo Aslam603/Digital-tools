@@ -6,7 +6,14 @@ return (
 
     <div className="navbar-start">
 <div className="flex items-center gap-1 w-10/12 mx-auto font-bold text-xl">
-<p className="text-4xl text-blue-800">DigiTools</p>
+
+
+<img 
+    className="w-52 mb-4 rotate-180" 
+    src="DigiTools (2).png" 
+    alt="DigiTools Logo" 
+  />
+
 </div>
     </div>
 
