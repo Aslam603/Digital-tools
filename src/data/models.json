@@ -1,0 +1,62 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Resume Builder Pro",
+    "description": "Create professional, ATS-optimized resumes in minutes with AI assistance.",
+    "price": 12,
+    "period": "mo",
+    "tag": "popular",
+    "icon": "/operation.png",
+    "features": ["200+ premium templates", "ATS optimization score", "AI content suggestions", "Export to PDF", "Unlimited downloads"]
+  },
+  {
+    "id": "prod_002",
+    "name": "Ultimate Career Bundle",
+    "description": "Everything you need: Resume, Cover Letter, and Interview Prep.",
+    "price": 89,
+    "period": "one-time",
+    "tag": "best seller",
+    "icon": "/portfolio.png",
+    "features": ["Resume + Cover Letter", "LinkedIn makeover", "Interview bank", "Lifetime access", "Priority support"]
+  },
+  {
+    "id": "prod_003",
+    "name": "Yearly Pro Plan",
+    "description": "Full access to all career tools with advanced AI features for one full year.",
+    "price": 99,
+    "period": "yr",
+    "tag": "new",
+    "icon": "/social-media.png",
+    "features": ["Everything in Monthly Pro", "Advanced AI rewriting", "Portfolio website builder", "Job application tracker", "2x faster generation"]
+  },
+  {
+    "id": "prod_004",
+    "name": "Cover Letter Studio",
+    "description": "AI-powered cover letters tailored to any job description.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "popular",
+    "icon": "/write.png",
+    "features": ["150+ templates", "Job matching", "Multiple tone options", "PDF & DOCX export", "Unlimited revisions"]
+  },
+  {
+    "id": "prod_005",
+    "name": "LinkedIn Booster",
+    "description": "Optimize your LinkedIn profile to attract recruiters with AI suggestions.",
+    "price": 9,
+    "period": "mo",
+    "tag": "best seller",
+    "icon": "https://www.clipartmax.com/png/middle/58-586574_blue-camera-pictogram-svg-clip-arts-600-x-504-px-blue-camera.png",
+    "features": ["AI profile optimization", "Headline writer", "Keyword optimization", "Profile analytics", "Message templates"]
+  },
+  {
+    "id": "prod_006",
+    "name": "Interview Mastery Kit",
+    "description": "Complete interview preparation with 500+ real questions and AI feedback.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "new",
+    "icon": "/operation.png",
+    "features": ["500+ questions", "AI mock interview", "Behavioral guide", "Salary scripts", "Lifetime updates"]
+  }
+]

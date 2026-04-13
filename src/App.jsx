@@ -10,6 +10,11 @@ import FooterSecondary from './components/footersecondary'
 import Steps from './components/steps'
 import PricingCard from './components/PricingCard'
 import PricingSection from './components/PricingSection'
+import Models from './components/models'
+
+
+
+
 
 
 function App() {
@@ -25,6 +30,8 @@ function App() {
 <Banner></Banner>
 
 <Stats></Stats>
+ 
+ <Models></Models>
 
 <Steps></Steps>
 
