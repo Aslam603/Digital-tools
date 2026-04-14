@@ -1,19 +1,11 @@
 import React from 'react';
 
-const ModelsCard = ({ data }) => {
+const ModelsCard = ({ data, onBuy, isAdded }) => {
   const getTagStyles = (tag) => {
     const tagName = tag?.toLowerCase();
-    
-    if (tagName === 'popular') {
-      return 'bg-purple-100 text-purple-700 border-purple-200';
-    }
-    if (tagName === 'new') {
-      return 'bg-green-100 text-green-700 border-green-200';
-    }
-    if (tagName === 'best popular') {
-      return 'bg-red-100 text-red-700 border-red-200';
-    }
-    
+    if (tagName === 'popular') return 'bg-purple-100 text-purple-700 border-purple-200';
+    if (tagName === 'new') return 'bg-green-100 text-green-700 border-green-200';
+    if (tagName === 'best popular') return 'bg-red-100 text-red-700 border-red-200';
     return 'bg-yellow-100 text-red-700 border-gray-200';
   };
 
@@ -39,7 +31,7 @@ const ModelsCard = ({ data }) => {
           </div>
         </div>
 
-        <p className="text-sm mt-3  text-base-content/70 min-h-[3rem]">
+        <p className="text-sm mt-3 text-base-content/70 min-h-[3rem]">
           {data.description}
         </p>
 
@@ -54,9 +46,17 @@ const ModelsCard = ({ data }) => {
           ))}
         </ul>
 
-        <div className="card-actions  mt-8">
-          <button className="btn bg-gradient-to-r py-5 px-32  whitespace-nowrap from-blue-900 to-purple-900 border-none text-white btn-block">
-            Buy Now
+        <div className="card-actions mt-8 w-full">
+          <button 
+            onClick={() => onBuy(data)} 
+            disabled={isAdded}
+            className={`btn py-5 px-32 whitespace-nowrap border-none text-white btn-block transition-all duration-300 ${
+              isAdded 
+                ? 'bg-green-600 hover:bg-green-600 cursor-default' 
+                : 'bg-gradient-to-r from-blue-900 to-purple-900'
+            }`}
+          >
+            {isAdded ? 'Added to Cart' : 'Buy Now'}
           </button>
         </div>
       </div>
