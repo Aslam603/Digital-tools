@@ -9,15 +9,15 @@
 
  ## Technology used -
 
- 🌷 Tailwind CSS
- 🌷DaisyUI
- 🌷JavaScript(ES6+)
- 🌷JSON
- 🌷React.js
- 🌷React-Toastify
+ -🌷 Tailwind CSS
+ -🌷DaisyUI
+ -🌷JavaScript(ES6+)
+ -🌷JSON
+ -🌷React.js
+ -🌷React-Toastify
 
  ## Features 
 
- ⭕ Responsive design.
- ⭕ Dynamic cart counter.
- ⭕ Smooth use .
+ -⭕ Responsive design.
+ -⭕ Dynamic cart counter.
+ -⭕ Smooth use .
