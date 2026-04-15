@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import modelsData from '../data/models.json';
 import ModelsCard from './modelsCard';
 import { ShoppingCart, Trash2 } from 'lucide-react';
+import { toast } from 'react-toastify';
 
 const Models = ({ cartItems, setCartItems }) => {
   const [activeTab, setActiveTab] = useState('product');
@@ -15,11 +16,15 @@ const Models = ({ cartItems, setCartItems }) => {
   };
 
   const removeFromCart = (cartId) => {
+    toast.success("Deleted succesfully!")
     setCartItems((prev) => prev.filter(item => item.cartId !== cartId));
   };
 
   const handleCheckout = () => {
+toast.success("purchased successfully")
+
     setCartItems([]);
+
   };
 
   return (

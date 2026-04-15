@@ -8,24 +8,23 @@ import FooterSecondary from './components/footersecondary'
 import Steps from './components/steps'
 import PricingSection from './components/PricingSection'
 import Models from './components/models'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
   // 1. All state must be inside the function
   const [cartItems, setCartItems] = useState([]);
-  const [count, setCount] = useState(0); // Kept from your original vite template
+  const [count, setCount] = useState(0); 
 
   return (
     <>
-      {/* 2. Pass the cart length to NavBar */}
       <NavBar cartCount={cartItems.length} />
       
       <main>
         <Banner />
         <Stats />
         
-        {/* 3. Pass both items and setter to Models */}
         <Models cartItems={cartItems} setCartItems={setCartItems} />
-        
+        <ToastContainer></ToastContainer>
         <Steps />
         <PricingSection />
       </main>

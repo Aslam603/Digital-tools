@@ -1,88 +1,66 @@
 const Steps = () => {
-
-    return (
-
-<section className="py-12">
-
-
-<div className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-2.5">Get Started in 3 Steps</h1>
-        <p className="opacity-55 mb-16">Start using premium digital tools in minutes, not hours.</p>
+  return (
+    <section className="py-16 px-6 w-full bg-transparent">
+      {/* Header Section */}
+      <div className="flex flex-col items-center text-center mb-12 w-full">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+          Get Started in 3 Steps
+        </h1>
+        <p className="opacity-60 max-w-md">
+          Start using premium digital tools in minutes, not hours.
+        </p>
       </div>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto justify-center place-items-center">
+        
+        <div className="group bg-white text-black border border-gray-100 shadow-xl hover:shadow-2xl transition-shadow duration-300 rounded-3xl p-8 relative w-full max-w-[350px] min-h-[320px] flex flex-col items-center justify-center">
+          <span className="absolute top-6 left-6 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xs font-bold px-3 py-1">
+            01
+          </span>
 
-<div className="grid grid-cols-3 gap-2 justify-items-center mx-auto max-w-6xl">
+          <div className="bg-gray-100 rounded-full p-5 mb-6 group-hover:scale-110 transition-transform">
+            <img className="w-12 h-12 object-contain" src="user.png" alt="User" />
+          </div>
 
-<div className="card bg-white text-black border border-white shadow-2xl  w-80 h-72">
+          <h2 className="font-bold text-2xl mb-3">Create Account</h2>
+          <p className="opacity-50 text-center text-sm leading-relaxed">
+            Sign up for free in seconds. No credit card required to get started.
+          </p>
+        </div>
 
-    <button className="rounded-full bg-linear-to-r from-blue-700 to-purple-700 text-white h-6 w-8 justify-end">01</button>
+        <div className="group bg-white text-black border border-gray-100 shadow-xl hover:shadow-2xl transition-shadow duration-300 rounded-3xl p-8 relative w-full max-w-[350px] min-h-[320px] flex flex-col items-center justify-center">
+          <span className="absolute top-6 left-6 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xs font-bold px-3 py-1">
+            02
+          </span>
 
+          <div className="bg-gray-100 rounded-full p-5 mb-6 group-hover:scale-110 transition-transform">
+            <img className="w-12 h-12 object-contain" src="package.png" alt="Package" />
+          </div>
 
-  <div className="card-body items-center text-center">
+          <h2 className="font-bold text-2xl mb-3">Choose Products</h2>
+          <p className="opacity-50 text-center text-sm leading-relaxed">
+            Browse our catalog and select the tools that fit your needs.
+          </p>
+        </div>
 
-    <img className="w-16 h-16 bg-gray-200 rounded-full p-3" src="user.png"></img> 
+        <div className="group bg-white text-black border border-gray-100 shadow-xl hover:shadow-2xl transition-shadow duration-300 rounded-3xl p-8 relative w-full max-w-[350px] min-h-[320px] flex flex-col items-center justify-center">
+          <span className="absolute top-6 left-6 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xs font-bold px-3 py-1">
+            03
+          </span>
 
-    
-    <h2 className="card-title font-bold text-2xl">Create Account</h2>
-    <p  className="opacity-50">Sign up for free in seconds. No credit card  <br /> required to get started.</p>
-  </div>
+          <div className="bg-gray-100 rounded-full p-5 mb-6 group-hover:scale-110 transition-transform">
+            <img className="w-12 h-12 object-contain" src="rocket.png" alt="Rocket" />
+          </div>
 
+          <h2 className="font-bold text-2xl mb-3">Start Creating</h2>
+          <p className="opacity-50 text-center text-sm leading-relaxed">
+            Download and start using your premium tools immediately.
+          </p>
+        </div>
 
-</div>
-  
-
-
-<div className="card bg-white text-black border border-white shadow-2xl  w-80 h-72">
-
-
-    <button className="rounded-full bg-linear-to-r from-blue-700 to-purple-700 text-white h-6 w-8 justify-end">02</button>
-
-
-  <div className="card-body items-center text-center">
-
-    <img className="w-16 h-16 bg-gray-200 rounded-full p-3 " src="package.png"></img> 
-
-    
-    <h2 className="card-title font-bold text-2xl">Choose Products</h2>
-    <p  className="opacity-50">Browse our catalog and select the tools <br /> that fit your needs.</p>
-  </div>
-
-
-</div>
-
-
-<div className="card bg-white text-black border border-white shadow-2xl  w-80 h-72">
-
-    <button className="rounded-full bg-linear-to-r from-blue-700 to-purple-700 text-white h-6 w-8   justify-end">03</button>
-
-
-  <div className="card-body items-center text-center">
-
-<div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden p-3">
-  <img 
-    className="max-w-full max-h-full object-contain" 
-    src="rocket.png" 
-    alt="Rocket" 
-  />
-</div>
-    
-    <h2 className="card-title font-bold text-2xl">Start Creating</h2>
-    <p  className="opacity-50">Download and start using your premium tools immediately.</p>
-  </div>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-    );
-
-
-
+      </div>
+    </section>
+  );
 };
 
 export default Steps;

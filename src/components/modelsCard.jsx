@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const ModelsCard = ({ data, onBuy, isAdded }) => {
   const getTagStyles = (tag) => {
@@ -48,7 +49,10 @@ const ModelsCard = ({ data, onBuy, isAdded }) => {
 
         <div className="card-actions mt-8 w-full">
           <button 
-            onClick={() => onBuy(data)} 
+            onClick={() => {
+              onBuy(data);
+              toast.success("Item added to cart");
+            }}
             disabled={isAdded}
             className={`btn py-5 px-32 whitespace-nowrap border-none text-white btn-block transition-all duration-300 ${
               isAdded 
